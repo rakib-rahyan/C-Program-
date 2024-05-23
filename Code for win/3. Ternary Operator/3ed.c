@@ -8,6 +8,6 @@ int main()
 
     (num%2==0)?printf("%d is even\n",num):printf("%d is odd\n",num);
 
-    main();
+    main(); //if you want to many times run program than write main()
     return 0;
 }
