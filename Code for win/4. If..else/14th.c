@@ -1,3 +1,4 @@
+//triangle is valid or not if angle are given
 #include<stdio.h>
 int main()
 {
