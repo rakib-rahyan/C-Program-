@@ -1,11 +1,14 @@
+// print all natural numbers form m to n
 #include<stdio.h>
 int main()
-{
-    int i=1;
-//    printf("Enter initial number: ");
-//    scanf("%d",&p);
-    printf("%d \n"i);
-    printf("%d \n"i++);
+{   int s, e;
+    printf("Input start integer number: ");
+    scanf("%d",&s);
+    printf("Input end integer number: ");
+    scanf("%d",&e);
 
-    return 0;
+    for( s; s<=e; s++){
+        printf("%d\n",s);
+    }
+
 }
