@@ -14,7 +14,7 @@ int main()
 }
 */
         //Same problem write in If else condition
-/*
+///*
 #include<stdio.h>
 int main()
 {
@@ -42,8 +42,9 @@ int main()
     return 5; //larnign now property if return 0 then show after run program 0 if return floting number then main() before is float it mean int main is float main;
     return 0;
 }
-*/
+// */
         // this problem solve in different way in if else condition
+/*
 #include<stdio.h>
 int main()
 {
@@ -77,3 +78,4 @@ int main()
 
     return 0;
 }
+*/
