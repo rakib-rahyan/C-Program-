@@ -2,15 +2,20 @@
 int main()
 {
     char input;
-    scanf("%f",&input);
+    scanf("%c",&input);
 
-    if(input<='a'&&input>='z'){
-        printf("Alphabet");
+    if(input>='a'&&input<='z'){
+        printf("Alphabet\n");
     }
     else if(input>='A'&&input<='Z'){
         printf("Alphabet");
     }
+    else if(input>='0'&&input<='9'){
+        printf("Digit\n");
+    }
+    else{
+        printf("Special\n");
+    }
 
-    main();
     return 0;
 }
