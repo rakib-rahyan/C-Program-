@@ -1,21 +1,30 @@
-
+//write a program for pattern nested loop
+/*
+n=5
+    *
+   **
+  ***
+ ****
+*****
+*/
 #include<stdio.h>
 int main()
 {
-    int x,y,i,n;
-    scanf("%d %d",&x,&y);
-    for(i=0; i<y; i++)
+    int n,i,j,k;
+    printf("n=5\n    *\n   **\n  ***\n ****\n*****\n");
+    printf("Enter you N number run this program: ");
+    scanf("%d",&n);
+    for(i=1; i<=5; i++)
     {
-        scanf("%d",&n);
-        if(x==n)
+        for(j=i; j<n; j++)
         {
-            printf("Right, Player-2 wins!");
+            printf(" ");
         }
-        else if(x!=n)
+        for(k=1; k<i ; k++)
         {
-            printf("wrong, %d Choices(s) Left!");
+            printf("*");
         }
-        else
-            printf("player-1 wins!");
+        printf("*\n");
     }
+
 }

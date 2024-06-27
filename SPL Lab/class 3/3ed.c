@@ -4,7 +4,7 @@ int main()
 {
     int i, n, j; // declare the variable
     // show output for you get input from user
-    printf("This is a square shape pattern/n");
+    printf("This is a square shape pattern\n");
     printf("Enter value of N, N is you want to print * vertically = horizontally: ");
     // user input store in variable
     scanf("%d",&n);
