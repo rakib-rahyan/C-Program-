@@ -1,18 +1,21 @@
-
-//nested loop in pattern
-
+// square shape pattern ib nested loop
 #include<stdio.h>
 int main()
 {
-    int i, j, n;
+    int i, n, j; // declare the variable
+    // show output for you get input from user
+    printf("This is a square shape pattern/n");
+    printf("Enter value of N, N is you want to print * vertically = horizontally: ");
+    // user input store in variable
     scanf("%d",&n);
+    // this loop-1 is for how many row print.
     for(i=1; i<=n; i++)
     {
+        // this loop-2 for how many column print
         for(j=1; j<=n; j++)
         {
-            printf("*");
+            printf("*"); // for print *
         }
-        printf("\n");
+        printf("\n"); // this for new line after run loop-2
     }
-    return 0;
 }
