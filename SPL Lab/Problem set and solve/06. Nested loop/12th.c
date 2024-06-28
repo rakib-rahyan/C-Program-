@@ -30,11 +30,14 @@ int main()
     w=q+1;
     e=w;
     e--;
-    for(i=1; i<=w; i++){
-        for(k=e;k>=1; k--){
+    for(i=1; i<=w; i++)
+    {
+        for(k=e; k>=1; k--)
+        {
             printf(",");
         }
-        for(j=1; j<=m; j++){
+        for(j=1; j<=m; j++)
+        {
             printf("*");
         }
         m=m+2;
@@ -42,13 +45,16 @@ int main()
         printf("\n");
     }
     n=n-2;
-    for(t=1; t<=q; t++){
-        for(y=1; y<=p; y++){
+    for(t=1; t<=q; t++)
+    {
+        for(y=1; y<=p; y++)
+        {
             printf(",");
 
         }
         p++;
-        for(r=1; r<=n;r++){
+        for(r=1; r<=n; r++)
+        {
             printf("*");
         }
         printf("\n");
