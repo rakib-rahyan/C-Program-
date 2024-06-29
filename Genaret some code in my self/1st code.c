@@ -4,18 +4,18 @@ int main()
 {
     float credit, registration_fee, tuition_fees, total_cradit_fee,with_cradit_fee,alrady_pay;
 
-    printf("Enter your credit: ");
-    scanf("%f",&credit);
-    printf("Enter your Tuition fees par credit: ");
-    scanf("%f",&tuition_fees);
-    printf("Enter your registration fees: ");
-    scanf("%f",&registration_fee);
+    printf("Enter your credit: ");                  //For input the user how many peack credit this semister or trimester.
+    scanf("%f",&credit);                            //Store the credit input in variable.
+    printf("Enter your Tuition fees par credit: "); //For input the user tuition fees par credit.
+    scanf("%f",&tuition_fees);                      //Store the credit fees in variable.
+    printf("Enter your course registration fees: ");//The user how many tk course registration fees.
+    scanf("%f",&registration_fee);                  //Store the registration fees.
 
-    total_cradit_fee=credit*tuition_fees;
-    printf("Your total credit fee: %f\n",total_cradit_fee);
-    with_cradit_fee=total_cradit_fee+registration_fee;
-    printf("With registration fee: %f\n",with_cradit_fee);
-    alrady_pay= 15000-registration_fee;
+    total_cradit_fee=credit*tuition_fees;                   //Multiply credit and tuition fees for out put total credit fees.
+    printf("Your total credit fee: %f\n",total_cradit_fee); //Output the total credit fees.
+    with_cradit_fee=total_cradit_fee+registration_fee;      //Adding by registration fees with total credit fees.
+    printf("With registration fee: %f\n",with_cradit_fee);  //Output show the total tuition fees with registration fees.
+    alrady_pay= 15000-registration_fee;                     //
     printf("In registration you can pay 15000tk\n");
     printf("Cut for your registration %ftk in your 1st installment alredy pay %f\n",registration_fee,alrady_pay);
 
