@@ -22,10 +22,10 @@ n=3
 #include<stdio.h>
 int main()
 {
-    int n, i, j,m=1,q,w,e,k;
-    int r,t,y, p=1;
+    int n,i,j,m=1,q,w,e,k,r,t,y,p=1;
     printf("Enter your N odd number: ");
     scanf("%d",&n);
+    if(n%2==1){
     q=n/2;
     w=q+1;
     e=w;
@@ -59,5 +59,9 @@ int main()
         }
         printf("\n");
         n=n-2;
+    }
+    }
+    else {
+        printf("you enter number is not odd place run again and enter odd number");
     }
 }
