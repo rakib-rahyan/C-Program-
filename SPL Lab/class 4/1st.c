@@ -10,6 +10,6 @@ int main()
     arr[3]=-2;  //arr[3]=-2 is mean variable is 0 and store data -2
     arr[4]=0;   //arr[4]=0 is mean variable is 4 and store data 0
 
-    printf("%d",arr[0]); // print the spasifi array
+    printf("%d",arr[2]); // print the spasifi array, if arr[3] then prin arr number in 2= 3print
     return 0;
 }
