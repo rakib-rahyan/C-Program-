@@ -1,17 +1,19 @@
-// fig06_02.c
-// Initializing the elements of an array with an initializer list.
+// fig06_03.c
+// Initializing the elements of array s to the even integers from 2 to 10.
 #include <stdio.h>
-
-// function main begins program execution
-int main(void) {
-   int n[5] = {32, 27, 64, 18, 95}; // initialize n with initializer list
-
-   printf("%s%8s\n", "Element", "Value");
-
-   // output contents of array in tabular format
-   for (size_t i = 0; i < 5; ++i) {
-      printf("%7zu%8d\n", i, n[i]);
-   }
+#define SIZE 5 // maximum size of array
+int main(void)
+{
+    int j[SIZE];
+    for(size_t i=0; i<SIZE; i++)
+    {
+     j[i]=2+2*i;
+    }
+    printf("%s%8s\n","Element","Value");
+    for(size_t i=0; i<SIZE; i++)
+    {
+        printf("%7zu%8d\n",i,j[i]);
+    }
 }
 
 
@@ -29,3 +31,4 @@ int main(void) {
  * consequential damages in connection with, or arising out of, the       *
  * furnishing, performance, or use of these programs.                     *
  *************************************************************************/
+
