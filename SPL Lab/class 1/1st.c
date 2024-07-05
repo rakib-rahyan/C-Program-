@@ -18,6 +18,7 @@ int main()
 
     printf("If you wanted exit a this program enter any key.\n");
     getch();
+    flo
 
     return 0;
 }
