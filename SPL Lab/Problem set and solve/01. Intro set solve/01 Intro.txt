@@ -1,0 +1,148 @@
+Basic Introductory Problems
+ (Total 15 questions)
+
+SL	Problem statement	Difficulty levels
+	Program that will print “Hello World”.
+
+Sample input	Sample output
+	Hello World
+
+	*
+	Program that will use newline/tab and print the following segment:
+
+Sample input	Sample output
+	Hello World.
+This is my first program.           C is fun.
+
+	*
+
+
+	Program that will print the following segment:
+
+Sample input	Sample output
+	The question is - “How to write a \comment/ in C programming language?”
+
+	*
+	Program that will declare an integer, a floating point number, a character. Then it will initialize them with values and print those values.
+
+Sample input	Sample output
+	The integer value: 5
+The floating point value: 3.141593
+The character value: a
+	The integer value: 100
+The floating point value: 1.618000
+The character value: z
+
+	*
+	Program that will do the followings:
+Declare a variable uninitialized
+Declare and  initialize a variable in one statement
+Declare and initialize multiple variables with different values in one statement
+Declare and initialize multiple variables with the same value in one statement
+
+	*
+	Program that will take your age in year(s) as input and print it.
+
+Sample input	Sample output
+20	My age is: 20
+21	My age is: 21
+
+	*
+	Program that will receive the values of an integer, a floating point number, a character from the keyboard and print those values.
+
+Sample input	Sample output
+5
+3.141593
+A	The integer value: 5
+The floating point value: 3.141593
+The character value: a
+100    1.618    z	The integer value: 100
+The floating point value: 1.618000
+The character value: z
+
+	*
+	Program that will take three integer numbers from keyboard but assign only the first and last inputs to variables and skip any assignment of the middle one.
+
+Sample input	Sample output
+20     50     100	First Value = 20,  Last Value = 100
+33     75      22	First Value = 33,  Last Value = 22
+
+	**
+	Program that will declare a variable from each data type: double, boolean. Then it will initialize them with values and print them.
+
+Sample input	Sample output
+	The double value: 3.140000e+00
+The boolean value: 1
+	The double value: 1.618039
+The boolean value: 0
+
+
+	*
+	Program that will declare a variable from each data type: long int, long long int, long double, short int. Then it will initialize them with values and print them.
+
+Sample input	Sample output
+	The long int value: 2147483647
+The long long int value: 9223372036854775807
+The long double value: 1.1E+4932
+The short int value: 32767
+	The long int value: -2,147,483,648
+The long long int value: -9223372036854775808
+The long double value: 3.4E-4932
+The short int value: -32768
+
+	**
+	Program that will declare a variable from each data type: unsigned int, unsigned long int, unsigned long long int, unsigned short int. Then it will initialize them with values and print them.
+Sample input	Sample output
+	The unsigned int value: 4294967295
+The unsigned long int value: 4294967295
+The unsigned long long int value: 18446744073709551615
+he unsigned short int value: 65,535
+	The unsigned int value: 0
+The unsigned long int value: 0
+The unsigned long long int value: 0
+The unsigned short int value: 0
+
+	**
+
+	Program that will define a constant using “CONST” and print the value.
+
+Sample input	Sample output
+	The value of pi: 3.14
+	The value of golden ratio: 1.62
+
+	**
+	Program that will define a constant using “DEFINE” and print the value.
+
+Sample input	Sample output
+	The value of HEIGHT: 200
+	The value of PI: 3.14
+
+	**
+	Program that will define a global and a local variable with the same name but with different values, and then do the following steps in order-
+Print the value of the variable before defining the local variable
+Print the value of the variable after defining the local variable
+Explicitly print the value of the variable as global
+
+Sample input	Sample output
+	Global: 10
+Local: 20
+Global: 10
+
+
+	**
+	Program that will take an floating point number as input from the keyboard and use printf function to perform the followings:
+
+Print the number right justified within 10 columns
+Print the number to be right justified to 2 columns (Assuming the input has more than 2 digits)
+Print the number rounded to two decimal places
+Print the number rounded to integer (without using conversion or type casting)
+Prints the number in exponential notation/scientific notation
+
+Sample input	Sample output
+123.098	(a) Val:          123.098000
+(b) Val:123.098000
+(c) Val:123.10
+(d) Val:123
+(e) Val: 1.230980e+02
+
+	**
