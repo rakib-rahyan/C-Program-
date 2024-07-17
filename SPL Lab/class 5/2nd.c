@@ -1,4 +1,6 @@
 //2D array
+//input 2 square shape array and print the 2 array
+//last print 1st array - 2nd array
 #include<stdio.h>
 int main()
 {
@@ -15,7 +17,7 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
-    printf("Enter matrix elements for b: ");
+    printf("Enter matrix elements for B: ");
     for(i=0; i<n; i++)
     {
         for(j=0; j<n; j++)
