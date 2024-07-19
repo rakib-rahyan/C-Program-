@@ -31,22 +31,40 @@ n=9
 #include<stdio.h>
 int main()
 {
-    int n=5,m,i,j,k;
-    m=n/2+1;
-    for(i=1;i<=n;){
-        for(j=1; j<=5;j++){// 5 line 3 times; 3 line 2 times; 9 line 3 times
-            printf("*");
-        }
-        printf("\n");
-        i++;
-        for(k=1; k<=m; k++){
-            printf("*");
-            for(j=1; j<=n-2; j++){
-                printf(".");
+    int n;
+    printf("Enter your N odd number: ");
+    scanf("%d",&n);
+    if(n%2==1)
+    {
+        if(n!=3)
+        {
+            for(int i=0; i<n; i++)
+            {
+                for(int j=0; j<n; j++)
+                {
+                    if(i==0 || i==n/2 || i==n-1 || j==0 || j==n-1)printf("*");
+                    else printf(" ");
+                }
+                printf("\n");
             }
-            printf("*");
-            printf("\n");
-            i++;
+
         }
+        else
+        {
+            for(int i=0; i<n; i++)
+            {
+                for(int j=0; j<n; j++)
+                {
+                    if(i==0 || i==n-1 || j==0 || j==n-1)printf("*");
+                    else printf(" ");
+                }
+                printf("\n");
+            }
+        }
+
+    }
+    else
+    {
+        printf("you enter number is not odd place run again and enter odd number");
     }
 }

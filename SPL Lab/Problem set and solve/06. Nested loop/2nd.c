@@ -6,20 +6,15 @@
 #include<stdio.h>
 int main()
 {
-    int n, i,p, j,m;
+    int n, i,j;
     printf("Enter your N number: ");
     scanf("%d",&n);
-    m=n;
     for(i=1; i<=n; i++)
     {
-        for(j=i; j<=m; j++)
+        for(j=i; j<=n+i; j++)
         {
             printf("%d",j);
-
         }
         printf("\n");
-        m++;
     }
-
-
 }

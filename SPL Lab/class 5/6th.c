@@ -1,5 +1,5 @@
 //2D array
-//major, minor diagonal
+//minor diagonal
 #include<stdio.h>
 int main()
 {
@@ -35,7 +35,7 @@ int main()
 
         }
     }
-    //printf("sum of column is %d",sum);
+    printf("Sum of Minor diagonal is %d",sum);
 
     return 0;
 }

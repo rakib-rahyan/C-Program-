@@ -9,10 +9,10 @@ int main()
     // user input store in variable
     scanf("%d",&n);
     // this loop-1 is for how many row print.
-    for(i=1; i<=n; i++)
+    for(i=0; i<n; i++)
     {
         // this loop-2 for how many column print
-        for(j=1; j<=n; j++)
+        for(j=0; j<n-i; j++)
         {
             printf("*"); // for print *
         }

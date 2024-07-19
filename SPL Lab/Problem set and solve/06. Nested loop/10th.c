@@ -10,7 +10,7 @@ n=5
 #include<stdio.h>
 int main()
 {
-    int n,i,j,k;
+    int n,i,j;
     printf("n=5\n    *\n   **\n  ***\n ****\n*****\n");
     printf("Enter you N number run this program: ");
     scanf("%d",&n);
@@ -20,7 +20,7 @@ int main()
         {
             printf(" ");
         }
-        for(k=1; k<i ; k++)
+        for(j=1; j<i ; j++)
         {
             printf("*");
         }

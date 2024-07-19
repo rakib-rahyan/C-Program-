@@ -8,7 +8,7 @@ n=4
 #include<stdio.h>
 int main()
 {
-    int n=4, i, j;
+    int n,i, j;
     printf("Enter your N number: ");
     scanf("%d",&n);
     for(i=1; i<=n; i++){

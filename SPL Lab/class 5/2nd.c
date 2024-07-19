@@ -5,6 +5,7 @@
 int main()
 {
     int n;
+    printf("This program for matrix a-b\n");
     printf("Enter square matrix size: ");
     scanf("%d",&n);
     int a[n][n], i,j;

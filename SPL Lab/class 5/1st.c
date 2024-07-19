@@ -6,6 +6,7 @@
 int main()
 {
       int n;
+      printf("This program for input your matrix number.");
       printf("Enter square matrix size: ");
       scanf("%d",&n);
       printf("Enter %d numbers input.",n*n);

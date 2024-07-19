@@ -1,8 +1,10 @@
 //2D array
+//This program for sum of column.
 #include<stdio.h>
 int main()
 {
     int n,m,sum=0,column=0;
+    printf("This program for sum of column.\n");
     printf("Enter square matrix size: ");
     scanf("%d",&n);
     int a[n][n], i,j;
