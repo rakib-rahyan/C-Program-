@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter N for n*n index in array: ");
+    scanf("%d",&n);
+    int a[n][n];
+    printf("Enter %d element for this array: ",n*n);
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            scanf("%d",&a[i][j]);
+        }
+    }
+    printf("\nMinor diagonal: ");
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            if(i==j)
+            {
+                printf("%d ",a[i][j]);
+            }
+        }
+    }
+    printf("\nMajor diagonal: ");
+    for(int i=0; i<n; i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            if(i+j==n-1)
+            {
+                printf("%d ",a[i][j]);
+            }
+        }
+    }
+}

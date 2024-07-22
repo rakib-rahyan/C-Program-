@@ -6,16 +6,21 @@ int main()
     int n, max,min,in,in2;
     scanf("%d",&n);
     int arr[n];
-    for(int i=0; i<n; i++){
+
+    for(int i=0; i<n; i++)
+    {
         scanf("%d",&arr[i]);
-        if(max<arr[i]){
+        if(max<arr[i])
+        {
             max=arr[i];
             in=i;
         }
     }
     min=max;
-    for(int i=0; i<n; i++){
-        if(min>arr[i]){
+    for(int i=0; i<n; i++)
+    {
+        if(min>arr[i])
+        {
             min=arr[i];
             in2=i;
         }
