@@ -1,3 +1,69 @@
+			SPL
 o1 Into (Problem : 5, 9, 10, 11, 12, 13, 14, 15)
 02 Operators (Problem : 4, 5, 6, 7
+04 loop
+	Uncomplete:7,8,9,10,11,12,13,14,15,16,18,19,20 
+05 Array
+	Uncomplete: 17,18,19,20,
+	extra ordinary: 14
+	Problem: 14
+Done 06 Nested
+	Uncomplete: 
+	extra ordinary: 13, 14, 17)
+07 2D array
+	Uncomplete: 3,14
+	Problem 3,14
+	extra ordinary: 2, 10
+
+	Home Work
+1. Uncomplete: 
+2. Uncomplete:
+3. Uncomplete:
+4. Uncomplete: 3, 5, 7 & 9
+5. Uncomplete: 4, 5, 6 & 7
+6. Uncomplete: 2, 3, 5 & 6
+7. Uncomplete: First 5 patterns
+work book
+   Uncomplete: Chapter 6 [ Page 47 – Q.1 & Q.2(a), (b), (c) ]
+Mid Questions
+	Uncomplete: 233, 232, 231 ,223, 222, 221
+
+			DLD
+Assignment 
+	Uncomplete: 
+		1: a, b, c, d
+		2: a, b
+		3: a, b, c, d
+		4: a, b
+		5: a, b, c, d, e, f, g, h, i, j
+		6: a, b
+Mid Questions
+	Uncomplete: 233, 232, 231 ,223, 222, 221
+
+
+			CALCULAS
+Math_1151__Practice_Problems_for_MID_Exam__Spring_2024
  
+Assignment 
+	Uncomplete:
+		1: a, b, c, d
+		2: 1,2,3,4,3,5,6,7,8,9+
+		3: a, b, c, d, e, f, g, h, i 
+		4: a, b
+		5: a, b
+		6: a, b, c
+		7: a, b, c
+		8: a, b, c
+		9: a, b, c, d, e, f, g, h, i 
+		10: 
+		11: a, b, c
+		12: a, b
+		13: 
+		14: 
+		15: a, b, c, d
+		16: a, b, c, d
+Mid Questions
+	Uncomplete: 233, 232, 231 ,223, 222, 221
+
+
+		

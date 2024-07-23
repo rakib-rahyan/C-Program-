@@ -13,42 +13,32 @@ n=3
 #include<stdio.h>
 int main()
 {
-    int n,m=1, i, j, k, l,e=1,t=1;
+    int n,l=1, p;
     printf("Enter your N number: ");
     scanf("%d",&n);
-    m=n;
-    if(m%2==1)
-    {
-        m+=2;
-    }
-    else
-    {
-        m+=1;
-    }
 
-    for(i=1; i<=n; i++)
-    {
-        int q=1;
-        for(j=1; j<=i; j++)
-        {
-            printf("%d",q);
-            q++;
+    for(int i=1; i<=n; i++){
+        if(i!=n){
+            for(int j=1; j<=i; j++){
+            printf("%d",j);
         }
-        for(k=1; k<=m; k++)
-        {
-            printf(",");
+        for(int k=l; k<=(n-3)+n; k++){
+                printf("-");
         }
-        if(t==n)
-        {
-            t=t-1;
+        for(int j=i; j>=1; j--){
+            printf("%d",j);
         }
-        for(l=t; l>=1; l--)
-        {
-            printf("%d",l);
+        }
+        else {
+            for(int i=1; i<=n; i++){
+                printf("%d",i);
+                }
+            for(int j=n-1; j>=1; j--){
+                printf("%d",j);
+            }
 
         }
-        m-=2;
-        t+=1;
+        l+=2;
         printf("\n");
     }
 }

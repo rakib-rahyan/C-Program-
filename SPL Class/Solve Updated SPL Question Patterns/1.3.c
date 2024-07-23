@@ -10,7 +10,7 @@ void main()
         printf("Sum is greater than 10\n");
     }
     else
-    {0O
+    {
         printf("Sum is less than or equal to 10\n");
     }
     return 0;
