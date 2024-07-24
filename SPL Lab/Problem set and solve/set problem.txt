@@ -19,8 +19,8 @@ Done 06 Nested
 1. Uncomplete: 
 2. Uncomplete:
 3. Uncomplete:
-4. Uncomplete: 3, 5, 7 & 9
-5. Uncomplete: 4, 5, 6 & 7
+4. Uncomplete:
+5. Uncomplete:
 6. Uncomplete: 2, 3, 5 & 6
 7. Uncomplete: First 5 patterns
 work book

@@ -1,18 +1,24 @@
 #include<stdio.h>
 int main()
 {
-    int k = 0;
-    while (k <= 20)
+    int n, l=1;
+    printf("Enter N for this pattern: ");
+    scanf("%d",&n);
+    for(int i=0; i<n; i++)
     {
-        int l = k;
-        while (l >= 0)
+        for(int j=i; j<n-1; j++)printf(".");
+        for(int j=0; j<=i; j++)
         {
-            printf("%d ", l);
-            l -= 2;
+            printf("%d",l);
+            if(l==n)
+            {
+                l=1;
+            }
+            l++;
         }
         printf("\n");
-        k += 2;
     }
+    return 0;
 }
 
 
