@@ -21,8 +21,8 @@ Done 06 Nested
 3. Uncomplete:
 4. Uncomplete:
 5. Uncomplete:
-6. Uncomplete: 2, 3, 5 & 6
-7. Uncomplete: First 5 patterns
+6. Uncomplete: 6
+7. Uncomplete:
 work book
    Uncomplete: Chapter 6 [ Page 47 – Q.1 & Q.2(a), (b), (c) ]
 Mid Questions
@@ -31,12 +31,12 @@ Mid Questions
 			DLD
 Assignment 
 	Uncomplete: 
-		1: a, b, c, d
-		2: a, b
-		3: a, b, c, d
-		4: a, b
-		5: a, b, c, d, e, f, g, h, i, j
-		6: a, b
+		1: a, b, c, d || 
+		2: a, b ||
+		3: a, b, c, d || 
+		4: || a, b
+		5: || a, b, c, d, e, f, g, h, i, j
+		6: || a, b
 Mid Questions
 	Uncomplete: 233, 232, 231 ,223, 222, 221
 
@@ -47,7 +47,7 @@ Math_1151__Practice_Problems_for_MID_Exam__Spring_2024
 Assignment 
 	Uncomplete:
 		1: a, b, c, d
-		2: 1,2,3,4,3,5,6,7,8,9+
+		2: 1, 2, 3, 4, 3, 5, 6, 7, 8, 9
 		3: a, b, c, d, e, f, g, h, i 
 		4: a, b
 		5: a, b
