@@ -29,11 +29,14 @@ Mid Questions
 	Uncomplete: 233, 232, 231 ,223, 222, 221
 
 			DLD
+Lecture slid 
+	Done: 1-11
+	Uncomplete: 12, pil
 Assignment 
 	Uncomplete: 
-		1: a, b, c, d || 
-		2: a, b ||
-		3: a, b, c, d || 
+		1: || a, b, c, d
+		2: || a, b 
+		3: || a, b, c, d
 		4: || a, b
 		5: || a, b, c, d, e, f, g, h, i, j
 		6: || a, b
@@ -44,24 +47,29 @@ Mid Questions
 			CALCULAS
 Math_1151__Practice_Problems_for_MID_Exam__Spring_2024
  
-Assignment 
+Practice Problem for MID Exam, 2024 spring 
 	Uncomplete:
-		1: a, b, c, d
-		2: 1, 2, 3, 4, 3, 5, 6, 7, 8, 9
-		3: a, b, c, d, e, f, g, h, i 
-		4: a, b
-		5: a, b
-		6: a, b, c
-		7: a, b, c
-		8: a, b, c
+	(Uncomplete|| complete || Confusing || Problem ) 
+		1: || a, b, c, d 
+		2: || 1, 2, 3, 4, 3, 5, 6, 7, 8, 9
+		3: || a, b, c, d, e, f, g, h, i 
+		4: || a, b, c, || confusing: d ||problem :
+		5: || a, b
+		6: || a, b, d, f, g, l, g, i, p, q, r || c, e, j, k, l, n, o|| h, m  
+		7: || a, e, f || b, c, d, 
+		8: P: domains 
 		9: a, b, c, d, e, f, g, h, i 
-		10: 
-		11: a, b, c
-		12: a, b
-		13: 
-		14: 
-		15: a, b, c, d
-		16: a, b, c, d
+		10: even/ odd
+		11: || a, b, c 
+		12: || P: a, b
+		13: done
+		14: done
+		15: done
+		16: done 
+		17: done 
+		18: done
+		19: done
+		20: 
 Mid Questions
 	Uncomplete: 233, 232, 231 ,223, 222, 221
 

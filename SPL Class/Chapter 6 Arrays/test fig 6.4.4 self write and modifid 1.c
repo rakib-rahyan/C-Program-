@@ -8,7 +8,7 @@ int main()
     for(int i=0; i<SIZE; ++i){
         sum=sum+a[i];
     }
-    printf("%d",sum);
+    printf("Sum: %d",sum);
 }
 
 

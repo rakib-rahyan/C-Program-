@@ -1,6 +1,6 @@
-// fig06_01.c
+// fig06_02.c
 // Initializing the elements of an array with an initializer list.
-//modifid in line 8, 9,12-16, 17-20.
+//modifid in line .
 #include<stdio.h>
 int main()
 {

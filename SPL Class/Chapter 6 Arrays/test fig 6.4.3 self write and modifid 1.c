@@ -5,12 +5,13 @@
 int main(void)
 {
     int j[SIZE];
-    for(size_t i=0; i<SIZE; i++)
+    for(size_t i=0; i<SIZE; i++) //size_t is a function not for inisilaize
     {
      j[i]=2+2*i;
     }
     printf("%s%8s\n","Element","Value");
-    for(size_t i=0; i<SIZE; i++)
+//    for(size_t i=0; i<SIZE; i++) in orginal code
+    for(int i=0; i<SIZE; i++)
     {
         printf("%7zu%8d\n",i,j[i]);
     }
