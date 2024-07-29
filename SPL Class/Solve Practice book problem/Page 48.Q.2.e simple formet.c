@@ -4,18 +4,16 @@ the totals of each column, each row and the reand total.*/
 #include<stdio.h>
 void main()
 {
-    int n,m;
-    printf("Enter N for row: ");
+    int n;
+    printf("Enter your N for column and row: ");
     scanf("%d",&n);
-    printf("Enter M for column : ");
-    scanf("%d",&m);
-    int i, j, data[n][m];
-    printf("Enter %d element: \n",(n-1)*(m-1));
+    printf("Enter %d element: ",n*n);
+    int i, j, data[n][n];
     for(i=0; i<n; i++)
     {
-        for(j=0; j<m; j++)
+        for(j=0; j<n; j++)
         {
-            if(j==m-1 || i==n-1){
+            if(j==n-1 || i==n-1){
                 data[i][j]=0;
             }
             else scanf("%d",&data[i][j]);
@@ -24,9 +22,9 @@ void main()
     printf("Your output: ");
     for(i=0; i<n; i++)
     {
-        for(j=0; j<m; j++)
+        for(j=0; j<n; j++)
         {
-            printf("%5d ",data[i][j]);
+            printf("%d ",data[i][j]);
         }
         printf("\n");
     }
