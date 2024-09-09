@@ -5,13 +5,13 @@ write a function that print Assalamu-Alaikum if user is Bangladesh
 */
 #include<stdio.h>
 void printBD();
-void printFR();
+void printFR(); //user defined function
 void printIN();
 int main()
 {
     char ch;
     printf("Enter (case sensitive) \nif Bangladesh = B \nif French = F \nif Indian = I\nEnter: ");
-    scanf("%c",&ch);
+    scanf("%c",&ch); //inbuilt or library funciton we used for stdio.h
     switch(ch)
     {
     case 'B': printBD();
