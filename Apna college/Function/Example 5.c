@@ -1,4 +1,5 @@
 #include<stdio.h>
+int sum(int x, int y);
 int main()
 {
     int a,b;
