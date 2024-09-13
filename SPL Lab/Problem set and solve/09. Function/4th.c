@@ -24,7 +24,5 @@ void PosNegZer(int n)
     {
         printf("Zero");
     }
-
-
 }
 
