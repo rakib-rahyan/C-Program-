@@ -24,9 +24,11 @@ int main()
     printf("%d %d %d", i, j, sum);
     return 0;
 }
+
+
 Rewrite the code in Q.6(a) by replacing the “switch” with a “nested if…else” statement. Be careful
-to deal with the default case properly
-*/
+    to deal with the default case properly
+    */
 #include <stdio.h>
 
 int main()
@@ -39,11 +41,8 @@ int main()
     {
         sum += (i + j);
         i++;
-        if (num == 2)  // Check if 2 is nested after case 1
-        {
-            sum += j - 2;
-            j++;
-        }
+        sum += j - 2;
+        j++;
     }
     else if (num == 2)
     {
@@ -55,11 +54,8 @@ int main()
         sum = (i + j) * i;
         i++;
         j--;
-        if (num == 4)  // Nested check for case 4
-        {
-            sum -= (i + j);
-            j--;
-        }
+        sum -= (i + j);
+        j--;
     }
     else if (num == 4)
     {
@@ -70,3 +66,4 @@ int main()
     printf("%d %d %d", i, j, sum);
     return 0;
 }
+
