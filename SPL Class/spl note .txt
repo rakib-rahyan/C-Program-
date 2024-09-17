@@ -1,0 +1,135 @@
+
+Topics for Final Exam:
+  1. Functions (chap 5)
+  2. String functions (chap 8)
+  3. Pointers (Chap 7)
+  4. Structures (Chap 10)
+  5. Files (Chap 11)
+
+Outline - Lecture 13, 14, 15, 16 (Sun, Wed, Sun, Wed - 1, 4, 8 & 11 Sep 2024)
+-----------------------------------------------------------------------------
+1. Introduction to Functions 
+	- Modularizing Programs in C (DD - 5.2)
+	- Math Library Functions (DD - 5.3)
+	- Functionalizing Programs (DD - 5.4)
+
+2. Function Definitions (DD - 5.5 & 5.6)
+		- Function definition, call, prototype
+		- Local/global variables, prototype, parameters/arguments & return values  
+		- fig05_01.c - Creating and using a function
+		- fig05_02.c - Finding the maximum of three integers
+	
+3. Function-Call Stack and Stack Frames & Headers (DD - 5.7 & 5.8)
+	- Function-Call Stack/program execution stack
+	- Stack Frames
+		- Each time a function calls another function, an entry is pushed onto the stack.
+		- Contains the return address that the called function needs in order to return to the calling function.
+		- Stack frame exists only as long as the called function is active (Local variables).
+	- Stack Overflow (If more function calls occur than stored stack frames)
+	- Function-Call Stack in Action 
+		- fig05_03.c-Demonstrating function-call stack/stack frames using a function square.
+			- Step 1: Operating System Invokes "main" to Execute Application
+			- Step 2: "main" Invokes Function "square" to Perform Calculation
+			- Step 3: "square" Returns Its Result to "main"
+
+4. Passing Arguments by Value and by Reference (DD 5.9)
+	- Pass-by-value (Changes to the copy do not affect an original variable’s value) 
+	- Pass-by-reference (Caller allows called function to modify the original variable’s value)
+		- Will be covered later after "pointer" is covered.
+	- In C, all arguments are passed by value (call-by-value)
+	- Array arguments are automatically passed by reference (call-by-reference)  		
+
+5. Storage Classes (DD - 5.12)
+	- Determines an identifier’s storage duration, scope and linkage.
+	- Local Variables and Automatic Storage Duration
+		- Automatic storage duration (auto - exist while the block is active, local variables)
+		- Static storage duration (extern & static - exist from the time at which the
+		 	program begins execution until it terminates, retains value in next execution)
+
+6. Scope Rules (DD - 5.13)
+	- Portion of the program in which the identifier can be referenced.
+	- The four identifier scopes: function, file, block and function-prototype scope.
+	- fig05_08.c - Scoping
+
+7. Recursion (DD - 5.14, 5.15 & 5.16) (will be covered later after "pointer" is covered.)
+	- Function calling itself either directly or indirectly through another function.
+	- Base Cases and Recursive Calls
+	- fig05_09.c - Recursive factorial function.
+	- Example Using Recursion: Fibonacci Series
+	- fig05_10.c - Recursive fibonacci function.
+
+8. Character & Strings (DD - Chapter 8 - 8.1 to 8.8)
+	- Using Character Arrays to Store and Manipulate Strings (DD - 6.5) [ Covered before the midterm ]
+
+	- Fundamentals of Strings and Characters (DD - 8.2)
+		• Strings Are Null Terminated ('\0')
+		• Strings and Pointers 
+			- A string is a pointer to the string’s first character. 
+			- This is just like arrays, because strings are simply arrays of characters.
+		• Initializing char Arrays and char * Pointers
+			- char color[] = "blue";  //5-element array "color", modifiable
+			  char color[] = {'b', 'l', 'u', 'e', '\0'}; //same as previous declaration
+			  const char *colorPtr = "blue";  	//points to the letter 'b' in "blue", not modifiable.
+		• Reading a String with scanf [ scanf("%19s", word); ]
+
+	- Character-Handling Library (DD - 8.3)
+		• (<ctype.h>) contains functions that test and manipulate character data.
+			- Each function receives an unsigned char (represented as an int) or EOF as an argument.
+			- 8.3.1 - Functions isdigit, isalpha, isalnum and isxdigit [ fig08_01.c ]
+			- 8.3.2 - Functions islower, isupper, tolower and toupper  [ fig08_02.c ]
+			- 8.3.3 Functions isspace, iscntrl, ispunct, isprint and isgraph [ fig08_03.c ]
+
+	- String-Conversion Functions (DD - 8.4)
+		• (<stdlib.h>) - These functions convert strings of digits to integer and floating-point values.
+			- 8.4.1 Function strtod [ fig08_04.c ]
+				• Converts a sequence of characters representing a floatingpoint value to double. 
+				• The function returns 0 if it’s unable to convert part of its first argument to double. 
+				• The function receives two arguments—a string (char *) and a pointer to a string (char **).
+			- 8.4.2 Function strtol [ fig08_05.c ]
+				• Converts to long int a sequence of characters representing an integer. 
+				• Returns 0 if it’s unable to convert any portion of its first argument to long int. 
+				• 3 arguments: a string (char *), a pointer to a string and an integer. 
+				• Works identically to strtod, but 3rd argument specifies base of the value being converted.
+			- 8.4.3 Function strtoul [ fig08_06.c ]
+				• Converts to unsigned long int a seq of characters representing an unsigned long int value. 					• The function works identically to function strtol. The 3rd argument, 0, indicates that the 				value to convert can be in octal, decimal or hexadecimal format.
+
+	- Standard Input/Output Library Functions (DD - 8.5)
+		• (<stdio.h>) library’s character- and string-manipulation functions
+			- 8.5.1 Functions fgets and putchar [ fig08_07.c ]
+				• fig08_07.c - Read a line of text from the standard input (keyboard) and recursively 
+				               output the line’s characters in reverse order
+			- 8.5.2 Function getchar [ fig08_08.c ]
+				• Read one character at a time from the standard input into the character array
+			- 8.5.3 Function sprintf [ fig08_09.c ]
+				• Print formatted data into a char array
+			- 8.5.4 Function sscanf [ fig08_10.c ]
+				• Reads formatted data from a string. 
+	- String-Manipulation Functions of the String-Handling Library (DD - 8.6)
+		• The string-handling library (<string.h>) provides useful functions for:
+			- manipulating string data (copying strings and concatenating strings),
+			- comparing strings,
+			- searching strings for characters and other strings,
+			- tokenizing strings (separating strings into logical pieces), and
+			- determining the length of strings.
+		• 8.6.1 Functions strcpy and strncpy [ fig08_11.c ]
+			- Uses "strcpy" to copy the entire string in array x into array y & 
+			  uses "strncpy" to copy the first n(14) characters of array x into array z.
+		• 8.6.2 Functions strcat and strncat [ fig08_12.c ]
+			- "strcat" appends its 2nd argument string to the string in its char array 1st argument, 
+			  replacing the first argument’s null ('\0') character. 
+			- "strncat" appends a specified number of characters from the 2nd string to the 1st string 
+ 			  and adds a terminating '\0'.
+
+	- Comparison Functions of the String-Handling Library (DD - 8.7)
+		• fig08_13.c - Function "strcmp" performs a character-by-character comparison of its two string arguments. 
+			- The function returns:
+				• 0 if the strings are equal,
+				• a negative value if the first string is less than the second string, or
+				• a positive value if the first string is greater than the second string.
+
+	- Search Functions of the String-Handling Library (DD - 8.8)
+		• 8.8.1 Function strchr - searches for the first occurrence of a character in a string - fig08_14.c
+			- If the char is found, returns a pointer to the char in the string; otherwise, returns NULL.
+		• 8.8.6 Function strstr - searches for the 1st occurrence of its 2nd string argument in its 1st 
+			string argument - fig08_19.c
+			- If 2nd string is found in 1st, returns a pointer to 2nd string’s location in the 1st.	
