@@ -4,7 +4,7 @@ int main()
 {
     int a= 492/7;
     int b= 492%7;
-    float c= (float)492/7;
+    float c= (float)0492/7;
     float d= (float)(492/7);
     int e= (a-b)<0&&c;
 
