@@ -91,7 +91,9 @@ Outline - Lecture 13, 14, 15, 16 (Sun, Wed, Sun, Wed - 1, 4, 8 & 11 Sep 2024)
 				• 3 arguments: a string (char *), a pointer to a string and an integer. 
 				• Works identically to strtod, but 3rd argument specifies base of the value being converted.
 			- 8.4.3 Function strtoul [ fig08_06.c ]
-				• Converts to unsigned long int a seq of characters representing an unsigned long int value. 					• The function works identically to function strtol. The 3rd argument, 0, indicates that the 				value to convert can be in octal, decimal or hexadecimal format.
+				• Converts to unsigned long int a seq of characters representing an unsigned long int value. 					
+				• The function works identically to function strtol. The 3rd argument, 0, indicates that the 				
+				  value to convert can be in octal, decimal or hexadecimal format.
 
 	- Standard Input/Output Library Functions (DD - 8.5)
 		• (<stdio.h>) library’s character- and string-manipulation functions
