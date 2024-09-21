@@ -9,15 +9,15 @@ Topics for Final Exam:
 Outline - Lecture 13, 14, 15, 16 (Sun, Wed, Sun, Wed - 1, 4, 8 & 11 Sep 2024)
 -----------------------------------------------------------------------------
 1. Introduction to Functions 
-	- Modularizing Programs in C (DD - 5.2)
-	- Math Library Functions (DD - 5.3)
-	- Functionalizing Programs (DD - 5.4)
+	(Done) - Modularizing Programs in C (DD - 5.2) (not understand)
+	(Done) - Math Library Functions (DD - 5.3) (not understand)
+	(Done) - Functionalizing Programs (DD - 5.4) (not understand)
 
-2. Function Definitions (DD - 5.5 & 5.6)
-		- Function definition, call, prototype
-		- Local/global variables, prototype, parameters/arguments & return values  
-		- fig05_01.c - Creating and using a function
-		- fig05_02.c - Finding the maximum of three integers
+2. Function Definitions (DD - 5.5 & 5.6) 
+	(Done)	- Function definition, call, prototype
+	(Done)	- Local/global variables, prototype, parameters/arguments & return values  
+	(Done)	- fig05_01.c - Creating and using a function
+	(Done)	- fig05_02.c - Finding the maximum of three integers
 	
 3. Function-Call Stack and Stack Frames & Headers (DD - 5.7 & 5.8)
 	- Function-Call Stack/program execution stack
