@@ -1,0 +1,77 @@
+Review - Lecture 13, 14, 15, 16 (Sun, Wed, Sun, Wed - 1, 4, 8 & 11 Sep 2024)
+------------------------------------------------------------------_---------
+1. Introduction to Functions (DD - 5.1 to 5.4) 
+2. Function Definitions (DD - 5.5 & 5.6)
+3. Function-Call Stack and Stack Frames & Headers (DD - 5.7 & 5.8)
+4. Passing Arguments by Value and by Reference (DD 5.9)
+5. Storage Classes (DD - 5.12)
+6. Scope Rules (DD - 5.13)
+7. Character & Strings (DD - Chapter 8 - 8.1 to 8.8)
+	- Fundamentals of Strings and Characters (DD - 8.2)
+	- Character-Handling Library (DD - 8.3)
+	- String-Conversion Functions (DD - 8.4)
+	- Standard Input/Output Library Functions (DD - 8.5)
+	- String-Manipulation Functions of the String-Handling Library (DD - 8.6)
+	- Comparison Functions of the String-Handling Library (DD - 8.7)
+	- Search Functions of the String-Handling Library (DD - 8.8)
+
+
+Outline - Lecture 17, 18, 19 & 20 (Sun, Wed, Sun, Wed - 15, 18, 22 & 25 Sep 2024)
+-------------------------------------------------------------------------_-------
+1. Introduction to Pointers (DD - 7.1)
+//	- one of C’s most powerful features. Pointers enable programs to:
+//		• accomplish pass-by-reference,
+//		• manipulate strings and arrays,
+//		• pass functions between functions,and
+//		• create and manipulate dynamic data structures that grow and shrink at execution
+//			time, such as linked lists, queues, stacks and trees. 
+	
+2. Pointer Variable Definitions and Initialization (DD - 7.2)
+//		- Declaring Pointers [ int *countPtr; ]
+//			- int *countPtr, count;
+//			- int *countPtr;
+//		  	  int count;
+//		- Initializing and Assigning Values to Pointers 
+//			- A pointer may be initialized to NULL, 0 or an address:
+//				• A pointer with the value NULL points to nothing.
+//				• Initializing a pointer to 0 is equivalent to initializing to NULL. 
+
+3. Pointer Operators (DD - 7.3)
+//	- The Address (&) Operator
+//		• int y = 5;
+//		• int *yPtr = &y;
+//	- The Indirection (*) Operator
+//		• printf("%d", *yPtr);
+//	- Demonstrating the & and * Operators
+//		• fig07_01.c - Using the & and * pointer operators.
+
+4. Passing Arguments to Functions by Reference (DD - 7.4)
+	- Use & and * to Accomplish Pass-By-Reference
+		• Calling a function with arguments that should be modified in the caller, use & to pass each variable’s address.
+		• arrays are not passed using operator & because an array’s name is equivalent to &arrayName[0] — the array’s starting location in memory. 
+	- fig07_02.c - Cube a variable using pass-by-value.
+	- fig07_03.c - Cube a variable using pass-by-reference with a pointer argument.
+	- Pass-By-Value vs. Pass-By-Reference Step-By-Step  		
+
+5. Pointer Expressions and Pointer Arithmetic (DD - 7.8)
+	- int v[5];
+	  vPtr = v; or, vPtr = &v[0];
+
+6. Relationship between Pointers and Arrays (DD - 7.9)
+	- int b[5];
+	  int *bPtr;
+	  bPtr = b; vs. bPtr = &b[0];
+	- fig07_14.cpp - Using subscripting and pointer notations with arrays.
+	- fig07_15.c - Copying a string using array notation and pointer notation.
+
+7. Arrays of Pointers (DD - 7.10)
+	- Form an array of strings, referred to simply as a string array. 
+	- Each element in a C string is essentially a pointer to its first character.
+		• const char *suit[4] = {"Hearts", "Diamonds", "Clubs", "Spades"};
+
+8. Recursion (DD - 5.14, 5.15 & 5.16)
+	- Function calling itself either directly or indirectly through another function.
+	- Base Cases and Recursive Calls
+	- fig05_09.c - Recursive factorial function.
+	- Example Using Recursion: Fibonacci Series
+	- fig05_10.c - Recursive fibonacci function.
