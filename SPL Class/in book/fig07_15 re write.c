@@ -3,36 +3,51 @@
 #include <stdio.h>
 #define SIZE 10
 
-void copy1(char * const s1, const char * const s2); // prototype
+void copy1( char * const s1, const char * const s2); // prototype
 void copy2(char *s1, const char *s2); // prototype
 
-int main(void) {
-   char string1[SIZE]; // create array string1
-   char *string2 = "Hello"; // create a pointer to a string
+int main(void)
+{
+    char string1[SIZE]; // create array string1
+    char *string2 = "Hello"; // create a pointer to a string
+    char *string5 = "Rakib"; // create a pointer to a string 5
+    char string3[SIZE]; // create array string3
+    char string4[] = "Good bye"; // create an array containing a string
 
-   copy1(string1, string2);
-   printf("string1 = %s\n", string1);
+    copy1(string1, string2);
+    printf("string1 = %s\n", string1);
 
-   char string3[SIZE]; // create array string3
-   char string4[] = "Good Bye"; // create an array containing a string
+    //copy1(string2, string5); //added string 5 >> this line can not run because
+   // printf("string1 = %s\n", string1);
 
-   copy2(string3, string4);
-   printf("string3 = %s\n", string3);
+    copy2(string3, string4);
+    printf("string3 = %s\n", string3);
+    copy2(string3, string5);
+    printf("string3 = %s\n", string3);
+    //{ dosen't work
+    copy2(string4, string5);
+    printf("string5 = %s\n", string4);
+    //}
 }
 
-void copy1(char * const s1, const char * const s2) {
-   // loop through strings
-   for (size_t i = 0; (s1[i] = s2[i]) != '\0'; ++i) {
-      ; // do nothing in body
-   }
+// copy s2 to s1 using array notation
+void copy1( char * const s1, const char * const s2)
+{
+    // loop through strings
+    for (size_t i = 0; (s1[i] = s2[i]) != '\0'; ++i)
+    {
+        ; // do nothing in body
+    }
 }
 
 // copy s2 to s1 using pointer notation
-void copy2(char *s1, const char *s2) {
-   // loop through strings
-   for (; (*s1 = *s2) != '\0'; ++s1, ++s2) {
-      ; // do nothing in body
-   }
+void copy2(char *s1, const char *s2)
+{
+    // loop through strings
+    for (; (*s1 = *s2) != '\0'; ++s1, ++s2)
+    {
+        ; // do nothing in body
+    }
 }
 
 
