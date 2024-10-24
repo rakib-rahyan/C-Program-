@@ -1,0 +1,51 @@
+string.h লাইব্রেরিটি C প্রোগ্রামিং ভাষায় স্ট্রিং ম্যানিপুলেশনের জন্য ব্যবহৃত হয়। এটি বিভিন্ন ধরণের ফাংশন প্রদান করে যা স্ট্রিং (character arrays) নিয়ে কাজ করার জন্য ব্যবহৃত হয়। এখানে string.h লাইব্রেরির প্রধান ফাংশনগুলোর তালিকা এবং তাদের সংক্ষিপ্ত বর্ণনা দেওয়া হলো:
+
+1. strlen()
+কাজ: স্ট্রিংয়ের দৈর্ঘ্য গণনা করে (নাল টার্মিনেটর ছাড়া)।
+সিনট্যাক্স: size_t strlen(const char *str);
+2. strcpy()
+কাজ: একটি স্ট্রিংকে অন্য স্ট্রিংয়ে কপি করে।
+সিনট্যাক্স: char *strcpy(char *dest, const char *src);
+3. strncpy()
+কাজ: নির্দিষ্ট সংখ্যক অক্ষর কপি করে।
+সিনট্যাক্স: char *strncpy(char *dest, const char *src, size_t n);
+4. strcat()
+কাজ: দুটি স্ট্রিংকে একত্রিত করে (concatenate)।
+সিনট্যাক্স: char *strcat(char *dest, const char *src);
+5. strncat()
+কাজ: নির্দিষ্ট সংখ্যক অক্ষর যোগ করে।
+সিনট্যাক্স: char *strncat(char *dest, const char *src, size_t n);
+6. strcmp()
+কাজ: দুটি স্ট্রিং তুলনা করে।
+সিনট্যাক্স: int strcmp(const char *str1, const char *str2);
+7. strncmp()
+কাজ: দুটি স্ট্রিংয়ের নির্দিষ্ট সংখ্যক অক্ষর তুলনা করে।
+সিনট্যাক্স: int strncmp(const char *str1, const char *str2, size_t n);
+8. strchr()
+কাজ: একটি স্ট্রিংয়ের মধ্যে একটি নির্দিষ্ট চরিত্র খুঁজে পায়।
+সিনট্যাক্স: char *strchr(const char *str, int c);
+9. strrchr()
+কাজ: ডান দিক থেকে স্ট্রিংয়ে একটি নির্দিষ্ট চরিত্র খুঁজে পায়।
+সিনট্যাক্স: char *strrchr(const char *str, int c);
+10. strstr()
+কাজ: একটি স্ট্রিংয়ের মধ্যে সাবস্ট্রিং খুঁজে পায়।
+সিনট্যাক্স: char *strstr(const char *haystack, const char *needle);
+11. strtok()
+কাজ: স্ট্রিং থেকে টোকেন তৈরি করে।
+সিনট্যাক্স: char *strtok(char *str, const char *delim);
+12. memset()
+কাজ: একটি নির্দিষ্ট মান দিয়ে মেমরি ব্লক সেট করে।
+সিনট্যাক্স: void *memset(void *str, int c, size_t n);
+13. memcpy()
+কাজ: একটি মেমরি এলাকা থেকে অন্য মেমরি এলাকায় ডেটা কপি করে।
+সিনট্যাক্স: void *memcpy(void *dest, const void *src, size_t n);
+14. memmove()
+কাজ: মেমরি এলাকা স্থানান্তর করে, যখন সোর্স ও ডেস্টিনেশন ওভারল্যাপ করে।
+সিনট্যাক্স: void *memmove(void *dest, const void *src, size_t n);
+15. memcmp()
+কাজ: দুটি মেমরি ব্লকের তুলনা করে।
+সিনট্যাক্স: int memcmp(const void *str1, const void *str2, size_t n);
+16. strdup() (অধিকাংশ সিস্টেমে উপলব্ধ, যদিও এটি ANSI C লাইব্রেরির অংশ নয়)
+কাজ: একটি স্ট্রিং এর ডুপ্লিকেট তৈরি করে।
+সিনট্যাক্স: char *strdup(const char *str);
+এসব ফাংশন ব্যবহার করে স্ট্রিং এবং মেমরি ম্যানিপুলেশনের কাজগুলো খুব সহজে করা যায়। string.h লাইব্রেরির এই ফাংশনগুলোর মাধ্যমে স্ট্রিং কপি, সংযুক্তি, তুলনা এবং অনুসন্ধানের মতো কাজগুলো করা সম্ভব।
